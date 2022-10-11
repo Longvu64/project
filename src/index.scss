@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --dark-background: hsl(207, 26%, 17%);
+  --dark-element: hsl(209, 23%, 22%);
+  --dark-text: #fff;
+  --light-background: hsl(0, 0%, 85%);
+  --light-element: hsl(0, 0%, 96%);
+  --light-text:  hsl(200, 15%, 8%);
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.dark-background{
+  background-color: var(--dark-background)
+}
+
+

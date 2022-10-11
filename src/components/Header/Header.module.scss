@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+    background-color: var(--dark-element);
+    color: var(--dark-text)
+}
+
+.dark-mode{
+    display: flex;
+    cursor: pointer;
+    p{
+        margin-left: 0.5rem;
+    }
+}
+
+.light-element{
+    background-color: var(--light-element);
+    color: var(--light-text);
+    transition: all 0.1s ease-in-out;
+
+}
